@@ -1,0 +1,134 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body#article{
+ background-image: url("orange.png");
+ background-size: cover;
+ background-position: center -100px;
+ background-repeat: no-repeat;
+}
+
+@media (max-width: 750px) {
+  body#article {
+    background-size: 750px;
+  }
+}
+
+@media (min-width: 900px) {
+  body#article {
+    background-size: 900px;
+  }
+}
+
+div#new {
+ margin: 0 auto 1em auto;
+ text-align: right;
+}
+
+div#bloglist{
+ width: 100%;
+ margin: auto;
+}
+
+div.blog.entry {
+ margin: 2em auto;
+}
+
+.entry .img {
+ background-image: url(http://unsplash.it/500);
+ background-size: contain;
+ background-color: white;
+ background-repeat: no-repeat;
+ background-position: center;
+ border: white solid;
+ border-width: 50px 50px 90px 50px;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ height: 300px;
+ margin: 20px auto;
+ width: 400px;
+}
+
+.entry .img h3 {
+ color: rgba(0,0,0,0.7);
+ font-family: 'Brusher', sans-serif;
+ font-weight: lighter;
+ height: 60px;
+ margin: 0 auto;
+ position: relative;
+ bottom: -325px;
+ text-align: center;
+}
+
+.entry p {
+ overflow: hidden;
+ text-overflow: ellipsis;
+ line-height: 1.6em;
+ max-height: 5em;
+ width: 400px;
+ padding: 25px 20px;
+
+}
+
+p.action {
+ font-size: 0.8em;
+ padding: 0 20px;
+ text-align: right;
+ width: 400px;
+}
+
+.article {
+ margin: 5%;
+ padding: 0;
+ width: 90%;
+}
+
+form {
+ margin: auto;
+ padding: 0 5%;
+ width: 90%;
+}
+
+input {
+ border: lightblue solid 1px;
+ background-color:rgba(255,255,255,0.5);
+ margin: 0 auto;
+ padding: 0;
+ width: 100%;
+}
+
+textarea {
+ border: lightblue solid 1px;
+ background-color:rgba(255,255,255,0.5);
+ margin: 0 auto;
+ padding: 0;
+ width: 100%;
+}
+
+h1.quote{
+ width: 60%
+}
+
+h1#start{
+ margin: 1em auto 0 auto;
+ text-align: left;
+}
+
+h1#end{
+ margin: 0 auto 1em auto;
+ text-align: right;
+}
+
+div#error_msg {
+ color: darkred;
+ font-family: 'Geomanist', sans-serif;
+ font-size: 0.8em;
+ margin: 0 auto;
+ width: 80%;
+ text-align: left;
+}
+
+#error_msg ul {
+ margin: 0.4em auto;
+}
+
